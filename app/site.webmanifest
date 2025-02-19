@@ -16,5 +16,6 @@
     ],
     "theme_color": "#7398d9",
     "background_color": "#0c1016",
-    "display": "standalone"
+    "display": "standalone",
+    "scope": "/ColemakCamp/"
 }
