@@ -390,6 +390,11 @@
          </github>
       </footer>
    </content>
+   <script>
+      if (typeof navigator.serviceWorker !== 'undefined') {
+         navigator.serviceWorker.register('scripts/sw.js');
+      }
+</script>
    <script type="text/javascript" src="lib/popper.min.js"></script>
    <script type="text/javascript" src="lib/tippy.min.js"></script>
    <script type="text/javascript" src="scripts/libconfig.min.js"></script>
